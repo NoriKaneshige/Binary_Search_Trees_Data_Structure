@@ -1,5 +1,5 @@
 # Binary_Search_Trees_Data_Structure
-<i class="fab fa-github"></i>
+
 
 > ## Node class creation: :wink:
 
