@@ -1,5 +1,5 @@
 # Binary_Search_Trees_Data_Structure
-&icon-spinner:large,spin;
+
 
 > ## Node class creation: :wink:
 
