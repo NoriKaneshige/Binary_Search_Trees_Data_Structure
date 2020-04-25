@@ -1,5 +1,5 @@
 # Binary_Search_Trees_Data_Structure
-
+:octocat:
 
 > ## Node class creation: :wink:
 
