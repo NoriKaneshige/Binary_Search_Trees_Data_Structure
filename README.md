@@ -3,6 +3,7 @@
 
 > ## Node class creation: :wink:
 
+``` js
 class Node {
     constructor(value){
         this.value = value;
@@ -10,9 +11,11 @@ class Node {
         this.right = null;
     }
 }
+```
 
 > ## class method creation for BinarySearchTree: :laughing:
 
+``` js
 class BinarySearchTree {
     constructor(){
         this.root = null;
@@ -76,18 +79,20 @@ class BinarySearchTree {
         return false;
     }
 }
+```
 
 > ## We don't want to do this blow, let's make a method: :cry:
-
+``` js
 // var tree = new BinarySearchTree();
 // tree.root = new Node(10);
 // tree.root.right = new Node(15);
 // tree.root.left = new Node(7);
 // tree.root.left.right = new Node(9);
-
+```
 
 > ## run code results: :laughing:
 
+``` js
 var tree = new BinarySearchTree();
 tree.insert(10)
 console.log(tree) // BinarySearchTree { root: Node { value: 10, left: null, right: null } }
@@ -126,3 +131,14 @@ console.log(tree.contains(7)) // true
 console.log(tree.find(1)) // undefined
 console.log(tree.contains(1)) // false
 
+```
+
+![trees](https://github.com/NoriKaneshige/Binary_Search_Trees_Data_Structure/blob/master/trees.png)
+![trees_visual](https://github.com/NoriKaneshige/Binary_Search_Trees_Data_Structure/blob/master/trees_visual.png)
+![trees_use](https://github.com/NoriKaneshige/Binary_Search_Trees_Data_Structure/blob/master/trees_use.png)
+![bst](https://github.com/NoriKaneshige/Binary_Search_Trees_Data_Structure/blob/master/bst.png)
+![bst_visual](https://github.com/NoriKaneshige/Binary_Search_Trees_Data_Structure/blob/master/bst_visual.png)
+![bst_insert](https://github.com/NoriKaneshige/Binary_Search_Trees_Data_Structure/blob/master/bst_insert.png)
+![bst_insert_visual](https://github.com/NoriKaneshige/Binary_Search_Trees_Data_Structure/blob/master/bst_insert_visual.png)
+![bst_find](https://github.com/NoriKaneshige/Binary_Search_Trees_Data_Structure/blob/master/bst_find.png)
+![bst_BigO](https://github.com/NoriKaneshige/Binary_Search_Trees_Data_Structure/blob/master/bst_BigO.png)
